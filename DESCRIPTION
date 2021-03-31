@@ -1,0 +1,17 @@
+Package: icecream
+Title: Never use print() to debug again
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Dominik",
+           family = "Rafacz",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "0000-0003-0925-1909"))
+Description: Do you ever use print() or log() to debug your code? 
+    Of course you do. IceCream, or ic for short, makes print debugging 
+    a little sweeter.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.0
