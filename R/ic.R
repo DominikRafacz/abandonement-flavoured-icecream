@@ -67,7 +67,7 @@ ic <- function(expr) {
     num_calls <- length(trace$calls)
     parent_ref <-  if (num_calls > 1) trace$calls[[num_calls - 1]][[1]] else NULL
     ref <- attr(trace$calls[[num_calls]], "srcref")
-    loc <- rlang:::src_loc(ref)
+    loc <- src_loc(ref)
     if (nchar(loc) == 0)
       loc <- "[filename unavailable]"
     cat(paste0("ic| ", loc,
