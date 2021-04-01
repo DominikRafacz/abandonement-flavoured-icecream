@@ -101,8 +101,8 @@ foo <- function() {
 }
 
 foo()
-## ic| example.R at global::foo 
-## ic| example.R at global::foo
+## ic| example.R:4:2 in global::foo 
+## ic| example.R:11:4 in global::foo
 ```
 
 
