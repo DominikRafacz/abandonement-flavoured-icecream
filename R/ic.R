@@ -58,6 +58,7 @@ NULL
 #'
 #' @importFrom rlang trace_back enquo eval_tidy is_missing as_label
 #' @importFrom cli console_width
+#' @importFrom utils capture.output
 #' @export
 ic <- function(expr) {
   argq <- enquo(expr)

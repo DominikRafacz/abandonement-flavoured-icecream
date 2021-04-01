@@ -17,6 +17,9 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports:
+    rlang (>= 0.4.10),
+    cli (>= 2.3.1)
 Suggests: 
     testthat (>= 3.0.0),
     withr (>= 2.4.1)
